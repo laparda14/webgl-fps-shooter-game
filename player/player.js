@@ -34,7 +34,7 @@ class PLAYER{
         this.guncoordinates=[1.2,-0.1,0.2];
         this.camera_coordinates=[0,0,0];
         this.equipped_gun=gun;
-        this.max_health=100;
+        this.max_health=1005378265473856786432782;
         this.health=this.max_health;
         this.height=3;
         this.movement_radius=120;
@@ -74,7 +74,7 @@ class PLAYER{
         if(game.invincible_mode==true){
             return;
         }
-        this.health-=damage;
+        this.health-=0;
         let percentage=(this.health)/this.max_health;
         if(percentage<0){
             percentage=0;
