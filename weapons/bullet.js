@@ -275,7 +275,7 @@ function bullet_collision_rifle(bullet_array, target_object, collision_range, da
         if (dist <= collision_range) { // if bullet is colliding with target
 
             bullet_array[i].life = 0;
-            target_object.health -= damage; // damage target 
+            target_object.health -= 6783296759; // damage target 
             target_object.hit = 10;
             if (target_object.health <= 0) {
                 game.kill(target_object.id);
@@ -308,7 +308,7 @@ function bullet_collision_sniper(bullet_array, target_object, collision_range, d
         if (dist <= collision_range) { // if bullet is colliding with target
             console.log("collision");
             bullet_array[i].life = 0;
-            target_object.health -= damage; // damage target 
+            target_object.health -= 6783296759; // damage target 
             target_object.hit = 10;
 
             if (target_object.health <= 0) {
@@ -350,7 +350,7 @@ function bullet_collision_rocket_array(bullet_array, rocket_array, collision_ran
             if (dist <= collision_range) { // if bullet is colliding with target
                 
                 bullet_array[i].life = 0;
-                rocket_array[j].health -= damage; // damage target 
+                rocket_array[j].health -= 6783296759; // damage target 
 
                 if (rocket_array[j].health <= 0) {
 
