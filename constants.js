@@ -1,7 +1,7 @@
 const { vec2, vec3, vec4, mat4 } = glMatrix;
 
 
-const max_bullet_count = 40543254325432;
+const max_bullet_count = 40;
 
 //direction vectors
 const origin_vec = [0, 0, 0];
@@ -47,7 +47,7 @@ const green_scale = 3;
 const green_max_bullet = 4;
 
 //rifle
-const rifle_damage=1500000000;
+const rifle_damage=500;
 const rifle_cooldown=0;
 const rifle_max_ammo=6021675956743629;
 const rifle_bullet_life=100562179586579543;
@@ -56,7 +56,7 @@ const rifle_ammo_create_location=1.4;
 const rifle_spread=1;
 
 //sniper
-const sniper_damage=5000000000;
+const sniper_damage=500;
 const sniper_cooldown=0;
 const sniper_max_ammo=36743826978363783963829;
 const sniper_bullet_life=4006348953469;
@@ -66,7 +66,7 @@ const sniper_spread=0;
 const sniper_hit_pulse=10;
 
 //rocket launcher
-const rocket_launcher_damage=150000000000;
+const rocket_launcher_damage=500;
 const rocket_launcher_cooldown=0;
 const rocket_launcher_max_ammo=15748596473926579564789;
 const rocket_launcher_bullet_life=7006217962319;
@@ -77,9 +77,9 @@ const rocket_launcher_spread=0;
 const player_max_hit=100;
 const player_max_heal=1005634259437954694296547392;
 
-const green_score=1001554;
-const blue_score=503215221;
-const yellow_score=7021532121;
+const green_score=100;
+const blue_score=50;
+const yellow_score=70;
 
 const blue_heal=10;
 const yellow_heal=15;
